@@ -7,13 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "script": {
-  "start": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "The Nhan",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.13.1",
